@@ -11,6 +11,11 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController" customModule="CvPabloMa_rquez" customModuleProvider="target">
             <connections>
                 <outlet property="bioButton" destination="bt0-Up-5XF" id="Kda-y0-1h9"/>
+                <outlet property="contactButton" destination="ahx-1r-6Of" id="egw-Cq-7fD"/>
+                <outlet property="experienceButton" destination="d1y-yw-YbA" id="ewO-ZM-ead"/>
+                <outlet property="imageHome" destination="XJF-ay-CkS" id="Y5f-Vm-f8H"/>
+                <outlet property="titleLabel" destination="jpG-m5-Fh7" id="eWD-4X-bKR"/>
+                <outlet property="trainingButton" destination="QdA-8K-gZk" id="ndv-BD-Pzm"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -47,7 +52,7 @@
                     <state key="normal" title="Button"/>
                     <buttonConfiguration key="configuration" style="plain" title="Formación"/>
                     <connections>
-                        <action selector="studesBAction:" destination="-1" eventType="touchUpInside" id="9Ie-rp-pQp"/>
+                        <action selector="studesBAction:" destination="-1" eventType="touchUpInside" id="m1V-f1-nxb"/>
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d1y-yw-YbA">
@@ -59,14 +64,25 @@
                         <action selector="experienceBAction:" destination="-1" eventType="touchUpInside" id="RQT-0t-EDG"/>
                     </connections>
                 </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ahx-1r-6Of">
+                    <rect key="frame" x="20" y="738" width="353" height="30"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="Contacto"/>
+                    <connections>
+                        <action selector="contactAction:" destination="-1" eventType="touchUpInside" id="pGY-wr-aVB"/>
+                    </connections>
+                </button>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
                 <constraint firstItem="jpG-m5-Fh7" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="30" id="I0L-Q3-cF6"/>
                 <constraint firstItem="jpG-m5-Fh7" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="30" id="Jdp-OI-kWZ"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="ahx-1r-6Of" secondAttribute="trailing" constant="20" id="NHv-pa-lNG"/>
+                <constraint firstItem="ahx-1r-6Of" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="NeI-1O-5ep"/>
                 <constraint firstItem="XJF-ay-CkS" firstAttribute="top" secondItem="jpG-m5-Fh7" secondAttribute="bottom" constant="40" id="Y10-Rn-t9z"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="jpG-m5-Fh7" secondAttribute="trailing" constant="30" id="bA1-B3-vcN"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="ahx-1r-6Of" secondAttribute="bottom" constant="50" id="hgQ-Mc-37N"/>
                 <constraint firstItem="XJF-ay-CkS" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="60" id="su6-pT-oHK"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="XJF-ay-CkS" secondAttribute="trailing" constant="60" id="vjn-PF-ibv"/>
             </constraints>
