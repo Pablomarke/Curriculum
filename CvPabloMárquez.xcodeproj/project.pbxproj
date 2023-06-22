@@ -19,6 +19,8 @@
 		39FE55212A443E420022FCA4 /* ExperienceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39FE551F2A443E420022FCA4 /* ExperienceViewController.xib */; };
 		39FE55242A443E6A0022FCA4 /* TrainingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39FE55222A443E6A0022FCA4 /* TrainingViewController.swift */; };
 		39FE55252A443E6A0022FCA4 /* TrainingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39FE55232A443E6A0022FCA4 /* TrainingViewController.xib */; };
+		39FE55282A448E320022FCA4 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39FE55262A448E320022FCA4 /* ContactViewController.swift */; };
+		39FE55292A448E320022FCA4 /* ContactViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39FE55272A448E320022FCA4 /* ContactViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		39FE551F2A443E420022FCA4 /* ExperienceViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExperienceViewController.xib; sourceTree = "<group>"; };
 		39FE55222A443E6A0022FCA4 /* TrainingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingViewController.swift; sourceTree = "<group>"; };
 		39FE55232A443E6A0022FCA4 /* TrainingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrainingViewController.xib; sourceTree = "<group>"; };
+		39FE55262A448E320022FCA4 /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		39FE55272A448E320022FCA4 /* ContactViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,8 @@
 				39FE55232A443E6A0022FCA4 /* TrainingViewController.xib */,
 				39FE551E2A443E420022FCA4 /* ExperienceViewController.swift */,
 				39FE551F2A443E420022FCA4 /* ExperienceViewController.xib */,
+				39FE55262A448E320022FCA4 /* ContactViewController.swift */,
+				39FE55272A448E320022FCA4 /* ContactViewController.xib */,
 			);
 			path = "CvPabloMárquez";
 			sourceTree = "<group>";
@@ -148,6 +154,7 @@
 				39FE550A2A44393D0022FCA4 /* Assets.xcassets in Resources */,
 				39FE55082A44393B0022FCA4 /* Main.storyboard in Resources */,
 				39FE551D2A443B350022FCA4 /* BioViewController.xib in Resources */,
+				39FE55292A448E320022FCA4 /* ContactViewController.xib in Resources */,
 				39FE55212A443E420022FCA4 /* ExperienceViewController.xib in Resources */,
 				39FE55172A4439B50022FCA4 /* HomeViewController.xib in Resources */,
 			);
@@ -165,6 +172,7 @@
 				39FE55012A44393B0022FCA4 /* AppDelegate.swift in Sources */,
 				39FE55162A4439B50022FCA4 /* HomeViewController.swift in Sources */,
 				39FE551C2A443B350022FCA4 /* BioViewController.swift in Sources */,
+				39FE55282A448E320022FCA4 /* ContactViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

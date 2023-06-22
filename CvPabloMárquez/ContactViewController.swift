@@ -8,10 +8,13 @@
 import UIKit
 
 class ContactViewController: UIViewController {
-
+    @IBOutlet weak var titleContac: UILabel!
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        view.backgroundColor = UIColor.systemFill
     }
-
+    
 }

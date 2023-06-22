@@ -8,12 +8,12 @@
 import UIKit
 
 class ExperienceViewController: UIViewController {
-
+    
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var tableView: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        view.backgroundColor = UIColor.systemFill
     }
-
+    
 }
