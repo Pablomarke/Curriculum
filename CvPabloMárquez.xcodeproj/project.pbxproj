@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3978B3962A488F5A0094F94B /* AppleKeyboard.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3978B3952A488F5A0094F94B /* AppleKeyboard.ttf */; };
+		3978B39D2A48958A0094F94B /* retro_computer_personal_use.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3978B3992A48958A0094F94B /* retro_computer_personal_use.ttf */; };
+		3978B39E2A48958A0094F94B /* lazenby_computer in Resources */ = {isa = PBXBuildFile; fileRef = 3978B39A2A48958A0094F94B /* lazenby_computer */; };
+		3978B39F2A48958A0094F94B /* LazenbyCompLiquid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3978B39B2A48958A0094F94B /* LazenbyCompLiquid.ttf */; };
+		3978B3A02A48958A0094F94B /* LazenbyCompSmooth.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3978B39C2A48958A0094F94B /* LazenbyCompSmooth.ttf */; };
 		39FE55012A44393B0022FCA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39FE55002A44393B0022FCA4 /* AppDelegate.swift */; };
 		39FE55082A44393B0022FCA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39FE55062A44393B0022FCA4 /* Main.storyboard */; };
 		39FE550A2A44393D0022FCA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39FE55092A44393D0022FCA4 /* Assets.xcassets */; };
@@ -24,6 +29,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3978B3952A488F5A0094F94B /* AppleKeyboard.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = AppleKeyboard.ttf; path = ../../../../Downloads/AppleKeyboard.ttf; sourceTree = "<group>"; };
+		3978B3992A48958A0094F94B /* retro_computer_personal_use.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = retro_computer_personal_use.ttf; sourceTree = "<group>"; };
+		3978B39A2A48958A0094F94B /* lazenby_computer */ = {isa = PBXFileReference; lastKnownFileType = folder; path = lazenby_computer; sourceTree = "<group>"; };
+		3978B39B2A48958A0094F94B /* LazenbyCompLiquid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LazenbyCompLiquid.ttf; sourceTree = "<group>"; };
+		3978B39C2A48958A0094F94B /* LazenbyCompSmooth.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LazenbyCompSmooth.ttf; sourceTree = "<group>"; };
 		39FE54FD2A44393B0022FCA4 /* CvPabloMárquez.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CvPabloMárquez.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		39FE55002A44393B0022FCA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		39FE55072A44393B0022FCA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -53,6 +63,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3978B3942A488F3A0094F94B /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				3978B3952A488F5A0094F94B /* AppleKeyboard.ttf */,
+				3978B39A2A48958A0094F94B /* lazenby_computer */,
+				3978B39B2A48958A0094F94B /* LazenbyCompLiquid.ttf */,
+				3978B39C2A48958A0094F94B /* LazenbyCompSmooth.ttf */,
+				3978B3992A48958A0094F94B /* retro_computer_personal_use.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		39FE54F42A44393B0022FCA4 = {
 			isa = PBXGroup;
 			children = (
@@ -72,6 +94,7 @@
 		39FE54FF2A44393B0022FCA4 /* CvPabloMárquez */ = {
 			isa = PBXGroup;
 			children = (
+				3978B3942A488F3A0094F94B /* Fonts */,
 				39FE55002A44393B0022FCA4 /* AppDelegate.swift */,
 				39FE55062A44393B0022FCA4 /* Main.storyboard */,
 				39FE55092A44393D0022FCA4 /* Assets.xcassets */,
@@ -151,9 +174,14 @@
 			files = (
 				39FE550D2A44393D0022FCA4 /* LaunchScreen.storyboard in Resources */,
 				39FE55252A443E6A0022FCA4 /* TrainingViewController.xib in Resources */,
+				3978B39E2A48958A0094F94B /* lazenby_computer in Resources */,
 				39FE550A2A44393D0022FCA4 /* Assets.xcassets in Resources */,
+				3978B3A02A48958A0094F94B /* LazenbyCompSmooth.ttf in Resources */,
+				3978B3962A488F5A0094F94B /* AppleKeyboard.ttf in Resources */,
+				3978B39F2A48958A0094F94B /* LazenbyCompLiquid.ttf in Resources */,
 				39FE55082A44393B0022FCA4 /* Main.storyboard in Resources */,
 				39FE551D2A443B350022FCA4 /* BioViewController.xib in Resources */,
+				3978B39D2A48958A0094F94B /* retro_computer_personal_use.ttf in Resources */,
 				39FE55292A448E320022FCA4 /* ContactViewController.xib in Resources */,
 				39FE55212A443E420022FCA4 /* ExperienceViewController.xib in Resources */,
 				39FE55172A4439B50022FCA4 /* HomeViewController.xib in Resources */,
