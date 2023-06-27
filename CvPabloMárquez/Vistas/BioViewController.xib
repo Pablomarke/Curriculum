@@ -34,10 +34,8 @@
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pyo-cC-F34">
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pyo-cC-F34">
                     <rect key="frame" x="40" y="148" width="313" height="650"/>
-                    <string key="text">Desarrollador de aplicaciones móviles IOs. Con ganas de desarrollar mi experiencia en KeepCoding y pode aplicar todo lo aprendido. Con gran sentido visual gracias a mi trabajo como fotógrafo y mi capacidad para trabajar en equipo, gracias a mi experiencia como director de teatro.
-Siempre ligado a las nuevas tecnologías, tanto en el uso de programas de edición como a la gestión de datos.</string>
                     <fontDescription key="fontDescription" name="RetroComputer" family="Retro Computer" pointSize="17"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>

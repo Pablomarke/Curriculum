@@ -24,7 +24,9 @@ class HomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = UIColor.systemFill
+        //Título
         
+        //Cuerpo
         titleLabel.textColor = UIColor.systemMint
         
         bioButton.tintColor = UIColor.systemMint

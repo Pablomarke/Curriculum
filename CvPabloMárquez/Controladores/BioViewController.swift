@@ -16,8 +16,13 @@ class BioViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = UIColor.systemFill
+       
+        //Título
         titleLabel.textColor = UIColor.systemMint
+        
+        //Cuerpo
         bioLabel.textColor = UIColor.systemMint
+        bioLabel.text = bio
         
     }
 }

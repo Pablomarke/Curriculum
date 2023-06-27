@@ -15,6 +15,9 @@ class ExperienceViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        //Título
+        
+        //Cuerpo
         titleLabel.textColor = UIColor.systemMint
         view.backgroundColor = UIColor.systemFill
         tableView.backgroundColor = UIColor.systemFill

@@ -14,7 +14,9 @@ class TrainingViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        //Título
         
+        //Cuerpo
         titleLabel.textColor = UIColor.systemMint
         trainingLabel.textColor = UIColor.systemMint
         
