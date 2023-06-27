@@ -11,9 +11,14 @@ class ExperienceViewController: UIViewController {
     
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var tableView: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        titleLabel.textColor = UIColor.systemMint
         view.backgroundColor = UIColor.systemFill
+        tableView.backgroundColor = UIColor.systemFill
+        
     }
     
 }

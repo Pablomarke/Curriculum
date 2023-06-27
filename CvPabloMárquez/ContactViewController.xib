@@ -7,9 +7,15 @@
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="LazenbyCompSmooth.ttf">
+            <string>LazenbyComputer-Smooth</string>
+        </array>
+    </customFonts>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ContactViewController" customModule="CvPabloMa_rquez" customModuleProvider="target">
             <connections>
+                <outlet property="contactLabel" destination="S7b-U6-Uiw" id="dcR-vW-a40"/>
                 <outlet property="titleContac" destination="gMs-DX-Kzl" id="VEJ-II-hqf"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
@@ -21,7 +27,7 @@
             <subviews>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Contacto" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gMs-DX-Kzl">
                     <rect key="frame" x="20" y="80" width="353" height="33.666666666666657"/>
-                    <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                    <fontDescription key="fontDescription" name="LazenbyComputer-Smooth" family="Lazenby Computer" pointSize="28"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
