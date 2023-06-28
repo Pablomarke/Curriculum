@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3922D9012A4B0C6600FDC142 /* DatosCurriculum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3922D9002A4B0C6600FDC142 /* DatosCurriculum.swift */; };
+		3922D9012A4B0C6600FDC142 /* CurriculumData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3922D9002A4B0C6600FDC142 /* CurriculumData.swift */; };
 		3978B3962A488F5A0094F94B /* AppleKeyboard.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3978B3952A488F5A0094F94B /* AppleKeyboard.ttf */; };
 		3978B39D2A48958A0094F94B /* retro_computer_personal_use.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3978B3992A48958A0094F94B /* retro_computer_personal_use.ttf */; };
 		3978B39E2A48958A0094F94B /* lazenby_computer in Resources */ = {isa = PBXBuildFile; fileRef = 3978B39A2A48958A0094F94B /* lazenby_computer */; };
@@ -30,7 +30,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3922D9002A4B0C6600FDC142 /* DatosCurriculum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatosCurriculum.swift; sourceTree = "<group>"; };
+		3922D9002A4B0C6600FDC142 /* CurriculumData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurriculumData.swift; sourceTree = "<group>"; };
 		3978B3952A488F5A0094F94B /* AppleKeyboard.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = AppleKeyboard.ttf; path = ../../../../Downloads/AppleKeyboard.ttf; sourceTree = "<group>"; };
 		3978B3992A48958A0094F94B /* retro_computer_personal_use.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = retro_computer_personal_use.ttf; sourceTree = "<group>"; };
 		3978B39A2A48958A0094F94B /* lazenby_computer */ = {isa = PBXFileReference; lastKnownFileType = folder; path = lazenby_computer; sourceTree = "<group>"; };
@@ -68,7 +68,7 @@
 		3922D9022A4B0D5600FDC142 /* Modelos */ = {
 			isa = PBXGroup;
 			children = (
-				3922D9002A4B0C6600FDC142 /* DatosCurriculum.swift */,
+				3922D9002A4B0C6600FDC142 /* CurriculumData.swift */,
 			);
 			path = Modelos;
 			sourceTree = "<group>";
@@ -228,7 +228,7 @@
 				39FE55162A4439B50022FCA4 /* HomeViewController.swift in Sources */,
 				39FE551C2A443B350022FCA4 /* BioViewController.swift in Sources */,
 				39FE55282A448E320022FCA4 /* ContactViewController.swift in Sources */,
-				3922D9012A4B0C6600FDC142 /* DatosCurriculum.swift in Sources */,
+				3922D9012A4B0C6600FDC142 /* CurriculumData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
