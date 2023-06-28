@@ -15,11 +15,13 @@ class TrainingViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         //Título
+        titleLabel.textColor = UIColor.systemMint
         
         //Cuerpo
-        titleLabel.textColor = UIColor.systemMint
-        trainingLabel.textColor = UIColor.systemMint
         
+        trainingLabel.textColor = UIColor.systemMint
+        trainingLabel.text = estudes
+        trainingLabel.textAlignment = .justified
         
         view.backgroundColor = UIColor.systemFill
     }

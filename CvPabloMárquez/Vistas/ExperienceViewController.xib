@@ -15,7 +15,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ExperienceViewController" customModule="CvPabloMa_rquez" customModuleProvider="target">
             <connections>
-                <outlet property="tableView" destination="RpJ-YE-Tsi" id="2Nv-WK-fcn"/>
+                <outlet property="experienceLabel" destination="ECJ-tA-XGP" id="F7s-qd-cEr"/>
                 <outlet property="titleLabel" destination="03T-6t-Tld" id="lW5-RF-dyS"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
@@ -34,21 +34,23 @@
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="RpJ-YE-Tsi">
-                    <rect key="frame" x="20" y="180" width="353" height="618"/>
-                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                </tableView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ECJ-tA-XGP">
+                    <rect key="frame" x="20" y="200" width="353" height="598"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
                 <constraint firstItem="03T-6t-Tld" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="0h9-MJ-a8e"/>
-                <constraint firstItem="RpJ-YE-Tsi" firstAttribute="top" secondItem="03T-6t-Tld" secondAttribute="bottom" constant="60" id="8YF-86-cbl"/>
-                <constraint firstItem="RpJ-YE-Tsi" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="Lnx-fr-p7B"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="RpJ-YE-Tsi" secondAttribute="bottom" constant="20" id="hfU-7n-6PN"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="RpJ-YE-Tsi" secondAttribute="trailing" constant="20" id="mF2-wf-Ogd"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="ECJ-tA-XGP" secondAttribute="trailing" constant="20" id="WgG-Iq-asN"/>
+                <constraint firstItem="ECJ-tA-XGP" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="bwA-Rm-Mt3"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="ECJ-tA-XGP" secondAttribute="bottom" constant="20" id="hbO-ic-M3j"/>
                 <constraint firstItem="03T-6t-Tld" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="80" id="mHg-Zh-XHQ"/>
                 <constraint firstAttribute="trailing" secondItem="03T-6t-Tld" secondAttribute="trailing" constant="20" id="vAa-g7-9Nf"/>
+                <constraint firstItem="ECJ-tA-XGP" firstAttribute="top" secondItem="03T-6t-Tld" secondAttribute="bottom" constant="80" id="vYl-bt-bPe"/>
             </constraints>
             <point key="canvasLocation" x="131" y="-11"/>
         </view>
