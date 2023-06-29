@@ -10,21 +10,34 @@ import UIKit
 class ContactViewController: UIViewController {
     
     @IBOutlet weak var titleContac: UILabel!
-    @IBOutlet weak var contactLabel: UITextView!
+    @IBOutlet weak var upLabel: UILabel!
     
+    @IBOutlet weak var mediumLabel: UILabel!
+    
+    @IBOutlet weak var downLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        view.backgroundColor = UIColor.systemFill
+        
         //Título
+        titleContac.textColor = UIColor.systemMint
         
         //Cuerpo
-        view.backgroundColor = UIColor.systemFill
-        titleContac.textColor = UIColor.systemMint
-        contactLabel.textColor = UIColor.systemMint
-        contactLabel.backgroundColor = UIColor.systemFill
+        upLabel.text = phoneNumber
+        upLabel.textColor = UIColor.systemMint
         
-        contactLabel.text = "Hola mundo!"
+        mediumLabel.text = correo
+        mediumLabel.textColor = UIColor.systemMint
+        
+        downLabel.text = gitHub
+        downLabel.textColor = UIColor.systemMint
+        
+
+        
+        
+        
     }
     
 }
