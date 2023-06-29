@@ -13,3 +13,8 @@ let estudes: String =
     "*Bootcamp Desarrollo de APP móviles (Full stack) \nkeepCoding 2023 Bootcamp \n\n*Aprende a Programar desde cero (Full stack junior) \nkeepCoding 2023 \n\n*Ios y Swift 5.7 Curso completo desde cero a ProfesionalCurso \nOnline Udemy 2022"
 
 let experience: String = "*2020-2022 Avante E-commerce S.l. \n Trabajo de fotógrafo de e-commerce a tiempo completo. Desde la captura de imagen hasta su procesamiento con herramientas de edición. \n\n*2014-2022 varias empresas y cuenta propia\nTrabajos diversos por cuenta propia y ajena. Tanto fotografía de estudio como cubriendo eventos empresariales y sociales. "
+
+let phoneNumber = "679298455"
+let linkdn = "linkedin.com/in/developMarke"
+let gitHub = "github.com/PabloMarke"
+let correo = "markedevelop@gmail.com"
