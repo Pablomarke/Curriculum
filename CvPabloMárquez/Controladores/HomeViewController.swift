@@ -25,10 +25,9 @@ class HomeViewController: UIViewController {
         super.viewDidLoad()
         view.backgroundColor = UIColor.systemFill
         //Título
-        
-        //Cuerpo
         titleLabel.textColor = UIColor.systemMint
         
+        //Cuerpo
         bioButton.tintColor = UIColor.systemMint
         experienceButton.tintColor = UIColor.systemMint
         trainingButton.tintColor = UIColor.systemMint
@@ -41,22 +40,26 @@ class HomeViewController: UIViewController {
     //MARK: Acciones de los botones
     @IBAction func BioBAction(_ sender: Any) {
         let bioC = BioViewController()
-        navigationController?.pushViewController(bioC, animated: false)
+        navigationController?.pushViewController(bioC,
+                                                 animated: false)
         
     }
     @IBAction func studesBAction(_ sender: Any) {
         let trainingC = TrainingViewController()
-        navigationController?.pushViewController(trainingC, animated: false)
+        navigationController?.pushViewController(trainingC,
+                                                 animated: false)
         
     }
     @IBAction func experienceBAction(_ sender: Any) {
         let experienceC = ExperienceViewController()
-        navigationController?.pushViewController(experienceC, animated: true)
+        navigationController?.pushViewController(experienceC,
+                                                 animated: false)
     }
     
     @IBAction func contactAction(_ sender: Any) {
         let contactC = ContactViewController()
-        navigationController?.pushViewController(contactC, animated: true)
+        navigationController?.pushViewController(contactC,
+                                                 animated: false)
     }
     
 }
