@@ -38,28 +38,35 @@ class HomeViewController: UIViewController {
     
     
     //MARK: Acciones de los botones
-    @IBAction func BioBAction(_ sender: Any) {
+    @IBAction func BioBAction(
+        _ sender: Any
+    ) {
         let bioC = BioViewController()
-        navigationController?.pushViewController(bioC,
-                                                 animated: false)
-        
+        navigationController?.show(bioC,
+                                   sender: nil)
     }
-    @IBAction func studesBAction(_ sender: Any) {
+    
+    @IBAction func studesBAction(
+        _ sender: Any
+    ) {
         let trainingC = TrainingViewController()
-        navigationController?.pushViewController(trainingC,
-                                                 animated: false)
-        
+        navigationController?.show(trainingC,
+                                   sender: nil)
     }
-    @IBAction func experienceBAction(_ sender: Any) {
+    
+    @IBAction func experienceBAction(
+        _ sender: Any
+    ) {
         let experienceC = ExperienceViewController()
-        navigationController?.pushViewController(experienceC,
-                                                 animated: false)
+        navigationController?.show(experienceC,
+                                   sender: nil)
     }
     
-    @IBAction func contactAction(_ sender: Any) {
+    @IBAction func contactAction(
+        _ sender: Any
+    ) {
         let contactC = ContactViewController()
-        navigationController?.pushViewController(contactC,
-                                                 animated: false)
+        navigationController?.showDetailViewController(contactC,
+                                                       sender: nil)
     }
-    
 }
