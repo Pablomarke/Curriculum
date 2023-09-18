@@ -23,7 +23,7 @@ class TrainingViewController: UIViewController {
         trainingLabel.text = estudes
         trainingLabel.textAlignment = .justified
         
-        view.backgroundColor = UIColor.systemFill
+        view.backgroundColor = BACKGROUNDCOLOR
     }
     
     

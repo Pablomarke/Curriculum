@@ -19,7 +19,7 @@ class ContactViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        view.backgroundColor = UIColor.systemFill
+        view.backgroundColor = SECONDBACKGROUNDCOLOR
         
         //Título
         titleContac.textColor = UIColor.systemMint

@@ -13,6 +13,7 @@
 		3978B39E2A48958A0094F94B /* lazenby_computer in Resources */ = {isa = PBXBuildFile; fileRef = 3978B39A2A48958A0094F94B /* lazenby_computer */; };
 		3978B39F2A48958A0094F94B /* LazenbyCompLiquid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3978B39B2A48958A0094F94B /* LazenbyCompLiquid.ttf */; };
 		3978B3A02A48958A0094F94B /* LazenbyCompSmooth.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3978B39C2A48958A0094F94B /* LazenbyCompSmooth.ttf */; };
+		39EF874F2AB84ACE0039644A /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39EF874E2AB84ACE0039644A /* Styles.swift */; };
 		39FE55012A44393B0022FCA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39FE55002A44393B0022FCA4 /* AppDelegate.swift */; };
 		39FE55082A44393B0022FCA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39FE55062A44393B0022FCA4 /* Main.storyboard */; };
 		39FE550A2A44393D0022FCA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39FE55092A44393D0022FCA4 /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 		3978B39A2A48958A0094F94B /* lazenby_computer */ = {isa = PBXFileReference; lastKnownFileType = folder; path = lazenby_computer; sourceTree = "<group>"; };
 		3978B39B2A48958A0094F94B /* LazenbyCompLiquid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LazenbyCompLiquid.ttf; sourceTree = "<group>"; };
 		3978B39C2A48958A0094F94B /* LazenbyCompSmooth.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LazenbyCompSmooth.ttf; sourceTree = "<group>"; };
+		39EF874E2AB84ACE0039644A /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
 		39FE54FD2A44393B0022FCA4 /* CvPabloMárquez.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CvPabloMárquez.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		39FE55002A44393B0022FCA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		39FE55072A44393B0022FCA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -109,6 +111,14 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
+		39EF874D2AB84AB60039644A /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				39EF874E2AB84ACE0039644A /* Styles.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
 		39FE54F42A44393B0022FCA4 = {
 			isa = PBXGroup;
 			children = (
@@ -128,6 +138,7 @@
 		39FE54FF2A44393B0022FCA4 /* CvPabloMárquez */ = {
 			isa = PBXGroup;
 			children = (
+				39EF874D2AB84AB60039644A /* Styles */,
 				3922D9042A4B0E3700FDC142 /* Controladores */,
 				3922D9032A4B0E2800FDC142 /* Vistas */,
 				3922D9022A4B0D5600FDC142 /* Modelos */,
@@ -225,6 +236,7 @@
 				39FE55242A443E6A0022FCA4 /* TrainingViewController.swift in Sources */,
 				39FE55202A443E420022FCA4 /* ExperienceViewController.swift in Sources */,
 				39FE55012A44393B0022FCA4 /* AppDelegate.swift in Sources */,
+				39EF874F2AB84ACE0039644A /* Styles.swift in Sources */,
 				39FE55162A4439B50022FCA4 /* HomeViewController.swift in Sources */,
 				39FE551C2A443B350022FCA4 /* BioViewController.swift in Sources */,
 				39FE55282A448E320022FCA4 /* ContactViewController.swift in Sources */,
