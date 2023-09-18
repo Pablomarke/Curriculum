@@ -8,22 +8,24 @@
 import UIKit
 
 class TrainingViewController: UIViewController {
-    
+    // MARK: Outlets
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var trainingLabel: UILabel!
     
+    // MARK: ViewDidLoad
     override func viewDidLoad() {
         super.viewDidLoad()
-        //Título
+        view.backgroundColor = BACKGROUNDCOLOR
+        
+        ///Título
         titleLabel.textColor = UIColor.systemMint
         
-        //Cuerpo
-        
+        ///Cuerpo
         trainingLabel.textColor = UIColor.systemMint
         trainingLabel.text = estudes
         trainingLabel.textAlignment = .justified
         
-        view.backgroundColor = BACKGROUNDCOLOR
+        
     }
     
     

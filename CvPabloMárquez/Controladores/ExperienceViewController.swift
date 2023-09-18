@@ -8,18 +8,19 @@
 import UIKit
 
 class ExperienceViewController: UIViewController {
-    
+    // MARK: Outlets
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var experienceLabel: UILabel!
     
+    // MARK: viewDidLoad
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = BACKGROUNDCOLOR
         
-        //Título
+        ///Título
         titleLabel.textColor = UIColor.systemMint
         
-        //Cuerpo
+        ///Cuerpo
         experienceLabel.backgroundColor = UIColor.systemFill
         experienceLabel.text = experience
         experienceLabel.textColor = UIColor.systemMint

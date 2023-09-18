@@ -8,7 +8,7 @@
 import UIKit
 
 class ContactViewController: UIViewController {
-    
+    // MARK: Outlets
     @IBOutlet weak var titleContac: UILabel!
     @IBOutlet weak var upLabel: UILabel!
     
@@ -16,15 +16,15 @@ class ContactViewController: UIViewController {
     
     @IBOutlet weak var downLabel: UILabel!
     
+    // MARK: ViewDidLoad
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         view.backgroundColor = SECONDBACKGROUNDCOLOR
         
-        //Título
+        ///Título
         titleContac.textColor = UIColor.systemMint
         
-        //Cuerpo
+        ///Cuerpo
         upLabel.text = phoneNumber
         upLabel.textColor = UIColor.systemMint
         
