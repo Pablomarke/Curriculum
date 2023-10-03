@@ -9,6 +9,7 @@ import UIKit
 
 
 class BioViewController: UIViewController {
+    
     // MARK: Outlets
     @IBOutlet weak var bioLabel: UILabel!
     @IBOutlet weak var titleLabel: UILabel!
@@ -24,6 +25,5 @@ class BioViewController: UIViewController {
         ///Cuerpo
         bioLabel.textColor = UIColor.systemMint
         bioLabel.text = bio
-        
     }
 }

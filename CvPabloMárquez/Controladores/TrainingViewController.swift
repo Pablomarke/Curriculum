@@ -8,6 +8,7 @@
 import UIKit
 
 class TrainingViewController: UIViewController {
+    
     // MARK: Outlets
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var trainingLabel: UILabel!
@@ -25,8 +26,5 @@ class TrainingViewController: UIViewController {
         trainingLabel.text = estudes
         trainingLabel.textAlignment = .justified
         
-        
     }
-    
-    
 }

@@ -8,12 +8,11 @@
 import UIKit
 
 class ContactViewController: UIViewController {
+    
     // MARK: Outlets
     @IBOutlet weak var titleContac: UILabel!
     @IBOutlet weak var upLabel: UILabel!
-    
     @IBOutlet weak var mediumLabel: UILabel!
-    
     @IBOutlet weak var downLabel: UILabel!
     
     // MARK: ViewDidLoad
@@ -34,10 +33,5 @@ class ContactViewController: UIViewController {
         downLabel.text = gitHub
         downLabel.textColor = UIColor.systemMint
         
-
-        
-        
-        
     }
-    
 }

@@ -9,17 +9,20 @@ import UIKit
 
 @main
 class AppDelegate: UIResponder,
-                    UIApplicationDelegate {
+                   UIApplicationDelegate {
+    
     var window: UIWindow?
     
     func application(
         _ application: UIApplication,
-                     didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        
-        let vc = HomeViewController()
-        let nav = UINavigationController(rootViewController: vc)
-        window?.rootViewController = nav
-        return true
-    }
+        didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+            
+            let vc = HomeViewController()
+            let nav = UINavigationController(rootViewController: vc)
+            window?.rootViewController = nav
+            window?.makeKeyAndVisible()
+            
+            return true
+        }
 }
 

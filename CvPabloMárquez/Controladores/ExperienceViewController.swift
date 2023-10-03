@@ -8,6 +8,7 @@
 import UIKit
 
 class ExperienceViewController: UIViewController {
+    
     // MARK: Outlets
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var experienceLabel: UILabel!
@@ -26,5 +27,4 @@ class ExperienceViewController: UIViewController {
         experienceLabel.textColor = UIColor.systemMint
         
     }
-    
 }

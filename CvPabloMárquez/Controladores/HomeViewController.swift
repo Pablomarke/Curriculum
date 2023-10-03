@@ -8,6 +8,7 @@
 import UIKit
 
 class HomeViewController: UIViewController {
+    
     // MARK: Outlets
     ///Título e imagen de portada
     @IBOutlet weak var titleLabel: UILabel!
@@ -18,7 +19,6 @@ class HomeViewController: UIViewController {
     @IBOutlet weak var experienceButton: UIButton!
     @IBOutlet weak var trainingButton: UIButton!
     @IBOutlet weak var contactButton: UIButton!
-    
     
     // MARK: ViewDidLoad
     override func viewDidLoad() {
@@ -33,10 +33,7 @@ class HomeViewController: UIViewController {
         experienceButton.tintColor = UIColor.systemMint
         trainingButton.tintColor = UIColor.systemMint
         contactButton.tintColor = UIColor.systemBlue
-        
-        
     }
-    
     
     // MARK: Acciones de los botones
     @IBAction func BioBAction(
